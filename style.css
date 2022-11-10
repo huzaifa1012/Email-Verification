@@ -1,0 +1,90 @@
+body{
+    /* background-color:rgba(13, 0, 255, 0.861); */
+    margin: 0%;
+    background-image: url('../IMG/white\ hole\ in\ center\ and\ all\ over\ is\ black.jpg');
+    background-position: center;
+ 
+}
+.main {
+    height: 100vh;
+    display: flex;
+    margin: 0%;
+    background-color: rgba(0, 0, 255, 0.521);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-family: Century Gothic;
+}
+.verified {
+    margin: 0px auto;
+    display: flex;
+    margin: 7px;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    border: none;
+    padding: 14px;
+    color: white;
+    background-color: rgb(0, 0, 93);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 19px;
+}
+
+.verified:hover {
+    box-shadow: 1px 1px 5px rgb(18, 1, 114);
+    background-color: rgb(1, 1, 122);
+}
+
+
+
+
+
+
+.resend {
+    margin: 0px auto;
+    display: flex;
+    margin: 7px;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    border: none;
+    padding: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 19px;
+   
+}
+
+.resend:hover {
+    box-shadow: 1px 1px 5px black;
+    background-color: rgb(255, 255, 255);
+    
+}
+#not-ver {
+    color: black;
+    padding: 10px;
+    border-radius: 4px;
+    background-color:rgba(255, 255, 255, 0.238);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+
+}
+
+
+
+
+#email-gif {
+    width: 200px;
+    margin-bottom: -50px;
+}
